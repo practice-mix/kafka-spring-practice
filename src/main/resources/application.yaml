@@ -1,0 +1,8 @@
+spring:
+  kafka:
+    listener:
+      concurrency: 10
+      type: batch
+      ack-mode: batch
+
+
